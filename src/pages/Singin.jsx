@@ -8,16 +8,10 @@ const layout = {
   labelCol: {
     span: 8,
   },
-  // wrapperCol: {
-  //   span: 8,
-  // },
 };
-const tailLayout = {
-  // wrapperCol: {
-  //   offset: 5,
-  //   span: 12,
-  // },
-};
+// const tailLayout = {
+
+// };
 class Signin extends React.Component {
   state = {
     email: '',
