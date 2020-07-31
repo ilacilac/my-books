@@ -9,7 +9,9 @@ const layout = {
     span: 8,
   },
 };
+// const tailLayout = {
 
+// };
 class Signin extends React.Component {
   state = {
     email: '',
