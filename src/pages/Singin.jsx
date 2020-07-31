@@ -9,9 +9,7 @@ const layout = {
     span: 8,
   },
 };
-// const tailLayout = {
 
-// };
 class Signin extends React.Component {
   state = {
     email: '',
@@ -124,7 +122,7 @@ class Signin extends React.Component {
                 <Input.Password ref={this.passwordRef} />
               </Form.Item>
 
-              <Form.Item {...tailLayout}>
+              <Form.Item>
                 <Button
                   htmlType="submit"
                   onClick={this.click}
