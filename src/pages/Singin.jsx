@@ -122,7 +122,7 @@ class Signin extends React.Component {
                 <Input.Password ref={this.passwordRef} />
               </Form.Item>
 
-              <Form.Item {...tailLayout}>
+              <Form.Item>
                 <Button
                   htmlType="submit"
                   onClick={this.click}
