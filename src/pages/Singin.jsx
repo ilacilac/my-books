@@ -2,7 +2,7 @@ import React from 'react';
 import axios from 'axios';
 import { message, Form, Input, Button, Row, Col } from 'antd';
 import { Redirect } from 'react-router-dom';
-import withAuth from '../hocs/withAuth';
+import withoutAuth from '../hocs/withoutAuth';
 
 const layout = {
   labelCol: {
@@ -175,4 +175,4 @@ class Signin extends React.Component {
   };
 }
 
-export default withAuth(Signin, false);
+export default withoutAuth(Signin);

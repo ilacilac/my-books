@@ -66,5 +66,10 @@
   height: 40px;
   border: none;
   color: #fff;
-  background: linear-gradient(45deg, #ae579a, #c9bdc9);
+  background: linear-gradient(45deg, #ae579a, #e0c5e0);
+}
+
+.ant-form-item-explain {
+  font-size: 11px;
+  text-align: left;
 }
