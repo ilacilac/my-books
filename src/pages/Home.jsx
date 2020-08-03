@@ -63,7 +63,7 @@ class Home extends React.Component {
                       <p className={cx('message')}>
                         {this.state.target.message}
                       </p>
-                      <p className={cx('url')}>{this.state.target.url}</p>
+                      {/* <p className={cx('url')}>{this.state.target.url}</p> */}
                     </div>
                     <p className={cx('date')}>{this.state.target.createdAt}</p>
                     <div className={cx('icon-wrap')}>
